@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KQKQF6ZK33"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-KQKQF6ZK33');</script>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COLREGS Practice Quiz | SWO Guide</title>
+  <meta name="description" content="A 15-question COLREGS practice quiz covering lookout, safe speed, collision risk, steering and sailing rules, lights, and sound signals.">
+  <link rel="canonical" href="https://swoguide.com/tools/colregs-practice-quiz/">
+  <meta property="og:title" content="COLREGS Practice Quiz | SWO Guide"><meta property="og:description" content="Test your COLREGS reasoning and review every answer by rule."><meta property="og:type" content="website"><meta property="og:url" content="https://swoguide.com/tools/colregs-practice-quiz/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="site-header"><div class="nav-wrap shell"><a class="brand" href="/" aria-label="SWO Guide home"><span class="brand-mark" aria-hidden="true">✦</span><span>SWO Guide</span></a><nav class="site-nav" aria-label="Primary navigation"><a href="/#start-here">Start here</a><a href="/#guides">Guides</a><a href="/about/">About</a><a class="nav-cta" href="/guides/first-30-days/">First 30 days</a></nav></div></header>
+<main>
+<header class="article-hero shell"><div class="article-kicker"><span>Interactive practice</span><span>15 questions</span></div><h1>COLREGS Practice Quiz</h1><p class="article-dek">Choose the best answer, then review the controlling rule and reasoning. This quiz uses the uploaded Consolidated 2018 COLREGS as its stated source.</p></header>
+<div class="quiz-shell shell">
+<div class="callout"><strong>Study aid only</strong><p>This is not an official Navy or Coast Guard exam. Verify every answer against the current official rules and your authorized course material. The uploaded 2018 consolidation may not reflect later changes.</p></div>
+<div class="quiz-toolbar"><p id="quiz-progress">Question 1 of 15</p><button class="button button-primary" id="reset-quiz" type="button">Restart quiz</button></div>
+<form id="quiz-form"><div id="quiz-questions"></div><button class="button button-primary quiz-submit" type="submit">Score my answers</button></form>
+<section id="quiz-result" class="quiz-result" aria-live="polite" hidden></section>
+<section class="quiz-source"><h2>Source and review</h2><p>Questions were derived from the user-provided <em>Convention on the International Regulations for Preventing Collisions at Sea, 1972: Consolidated edition, 2018</em>, especially Rules 2, 5-8, 10, 13-19, 20-23, 34, and 35. Use the <a href="https://www.navcen.uscg.gov/navigation-rules-amalgamated" target="_blank" rel="noreferrer">current U.S. Coast Guard Navigation Rules resource</a> to check for current requirements.</p></section>
+</div></main>
+<footer class="site-footer"><div class="footer-grid shell"><div><a class="brand" href="/"><span class="brand-mark" aria-hidden="true">✦</span><span>SWO Guide</span></a><p class="footer-tagline">A clearer starting point for junior officers joining the surface fleet.</p></div><div class="footer-links"><a href="/about/">About</a><a href="/privacy/">Privacy</a><a href="/editorial-policy/">Editorial policy</a><a href="/contact/">Contact</a></div><p class="disclaimer">SWO Guide is an independent educational resource. It is not affiliated with, endorsed by, or an official website of the U.S. Navy or Department of Defense. Never submit classified, controlled, operational, or personally identifying information.</p></div></footer>
+<script>
+const questions=[
+{q:"When there is doubt whether risk of collision exists, what should you assume?",o:["No risk exists until the bearing is steady","Risk exists","Radar alone must decide","The stand-on vessel decides"],a:1,r:"Rule 7(a)",e:"Doubt is resolved in favor of treating risk of collision as existing."},
+{q:"A proper lookout must use which means?",o:["Sight only in daylight","Radar whenever fitted, with no visual lookout","Sight, hearing, and all available means appropriate to the conditions","The officer of the deck's judgment alone"],a:2,r:"Rule 5",e:"The lookout obligation is continuous and uses all appropriate available means."},
+{q:"Which is a factor in determining safe speed for all vessels?",o:["Only the posted speed limit","Traffic density","The age of the vessel","The next port of call"],a:1,r:"Rule 6(a)",e:"Traffic density is one of several required considerations for all vessels."},
+{q:"What kind of collision-avoidance action is preferred when circumstances permit?",o:["A series of small changes","Positive action made in ample time","A change that is hidden from radar","Waiting until the other vessel acts"],a:1,r:"Rule 8(a)-(b)",e:"Action should be positive, timely, and readily apparent; repeated small changes should be avoided."},
+{q:"A vessel coming from more than 22.5 degrees abaft another vessel's beam is generally in what situation?",o:["Crossing","Head-on","Overtaking","Restricted visibility"],a:2,r:"Rule 13(b)",e:"That relative sector defines overtaking; at night only the sternlight would be visible."},
+{q:"If you are unsure whether you are overtaking another vessel, what should you do?",o:["Assume a crossing situation","Assume you are overtaking","Call the vessel and wait","Maintain course because doubt cancels the rule"],a:1,r:"Rule 13(c)",e:"The Rules require the vessel in doubt to assume it is overtaking and act accordingly."},
+{q:"Two power-driven vessels meet head-on with risk of collision. What is the prescribed basic action?",o:["Both alter to port","Both alter to starboard","The faster vessel holds course","The vessel to the north gives way"],a:1,r:"Rule 14(a)",e:"Each alters course to starboard so they pass port side to port side."},
+{q:"In a crossing situation between two power-driven vessels, which vessel generally keeps out of the way?",o:["The vessel with the other on her starboard side","The vessel with the other on her port side","The larger vessel","The vessel showing more lights"],a:0,r:"Rule 15",e:"The vessel that sees the other on her own starboard side is the give-way vessel."},
+{q:"What is the give-way vessel expected to do?",o:["Keep course and speed indefinitely","Take early and substantial action to keep well clear","Alter only after five short blasts","Always stop engines"],a:1,r:"Rule 16",e:"The give-way vessel should act early and substantially to keep well clear."},
+{q:"When the give-way vessel is not taking appropriate action, the stand-on vessel may do what?",o:["Never maneuver","Take action by her maneuver alone","Turn to port in every case","Ignore the developing situation"],a:1,r:"Rule 17(a)(ii)",e:"The stand-on vessel may act when it becomes apparent that the give-way vessel is not complying."},
+{q:"Which rule takes priority over the general vessel hierarchy when it applies?",o:["Overtaking, Rule 13","Definitions, Rule 3","Lights, Rule 21","Distress signals, Rule 37"],a:0,r:"Rules 13 and 18",e:"Rule 18 expressly yields to Rules 9, 10, and 13; an overtaking vessel keeps clear regardless of general hierarchy."},
+{q:"Rule 19 applies when vessels are navigating in or near restricted visibility and are:",o:["In sight of one another","Not in sight of one another","Both at anchor","Only sailing vessels"],a:1,r:"Rule 19(a)",e:"Rule 19 governs vessels not in sight of one another in or near restricted visibility."},
+{q:"When must prescribed navigation lights generally be displayed?",o:["Sunrise to sunset only","Sunset to sunrise","Only in rain","Only outside harbor limits"],a:1,r:"Rule 20(b)",e:"The prescribed lights apply from sunset to sunrise and also in other stated circumstances."},
+{q:"For a power-driven vessel in sight of another, what does one short whistle blast indicate under the International Rules?",o:["Altering course to port","Operating astern propulsion","Altering course to starboard","I am in distress"],a:2,r:"Rule 34(a)",e:"One short blast indicates an alteration of course to starboard."},
+{q:"In restricted visibility, what signal does a power-driven vessel making way sound?",o:["One prolonged blast at intervals of not more than two minutes","Two short blasts every minute","Five rapid blasts every two minutes","Rapid ringing of a bell only"],a:0,r:"Rule 35(a)",e:"A power-driven vessel making way sounds one prolonged blast at intervals not exceeding two minutes."}
+];
+const host=document.getElementById("quiz-questions");
+function render(){host.innerHTML=questions.map((x,i)=>`<fieldset class="quiz-card"><legend><span>${i+1}</span>${x.q}</legend>${x.o.map((v,j)=>`<label><input type="radio" name="q${i}" value="${j}"> <span>${v}</span></label>`).join("")}<div class="answer-review" id="review-${i}" hidden></div></fieldset>`).join("");document.getElementById("quiz-progress").textContent=`15 questions • ${questions.length} total`;document.getElementById("quiz-result").hidden=true;}
+document.getElementById("quiz-form").addEventListener("submit",e=>{e.preventDefault();let score=0,answered=0;questions.forEach((x,i)=>{const selected=document.querySelector(`input[name="q${i}"]:checked`);const box=document.getElementById(`review-${i}`);if(selected){answered++;if(Number(selected.value)===x.a)score++;}box.hidden=false;box.className="answer-review "+(selected&&Number(selected.value)===x.a?"correct":"incorrect");box.innerHTML=`<strong>${selected&&Number(selected.value)===x.a?"Correct":"Review"} — ${x.r}</strong><p>${x.e}</p><p>Best answer: ${x.o[x.a]}</p>`;});const result=document.getElementById("quiz-result");result.hidden=false;result.innerHTML=`<p class="eyebrow">Your result</p><h2>${score} / ${questions.length}</h2><p>You answered ${answered} questions. Review each rule explanation below, then verify weak areas in the current official text.</p>`;result.scrollIntoView({behavior:"smooth",block:"center"});});
+document.getElementById("reset-quiz").addEventListener("click",()=>{document.getElementById("quiz-form").reset();render();window.scrollTo({top:0,behavior:"smooth"});});
+render();
+</script>
+</body></html>
+
